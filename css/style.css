@@ -102,7 +102,7 @@ main {
 }
 
 #gameboard td.win {
-    background: linear-gradient(90deg, #fffbda, #dff7f5)
+    background: linear-gradient(90deg, #fffbda, #04f1de)
 }
 
 /* X / O colors */
