@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Tic‑Tac‑Toe</h1>
+            <div id="status" class="status">Current turn: X</div>
+            <div class="controls">
+                <button id="newGame">New Game</button>
+            </div>
 
-    <table id="gameboard">
+            <div class="scoreboard">
+                <div class="score"><strong>X:</strong> <span id="scoreX">0</span></div>
+                <div class="score"><strong>O:</strong> <span id="scoreO">0</span></div>
+                <div class="score"><strong>Draws:</strong> <span id="scoreD">0</span></div>
+            </div>
+        </header>
+
+        <main>
+            <table id="gameboard" aria-label="Tic Tac Toe board">
         <tr>
             <td data-cell="0"></td>
             <td data-cell="1"></td>
@@ -24,7 +40,9 @@
             <td data-cell="8"></td>
         </tr>
     </table>
-    
+        </main>
+    </div>
+
     <script src="javascript/index.js"></script>
 </body>
 </html>
