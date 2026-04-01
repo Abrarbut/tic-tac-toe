@@ -1,5 +1,3 @@
-// Improved tic-tac-toe logic with status, scoreboard, winning highlights,
-// alternating starter, keyboard accessibility, and blocking input after result.
 
 const gameboard = document.getElementById('gameboard');
 const cells = Array.from(gameboard.querySelectorAll('td'));
